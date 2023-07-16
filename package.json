@@ -1,5 +1,5 @@
 {
-  "name": "espirita.top",
+  "name": "espirita-top",
   "private": true,
   "scripts": {
     "build": "nuxt build",
