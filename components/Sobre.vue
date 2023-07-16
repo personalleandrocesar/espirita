@@ -454,7 +454,7 @@ code {
 
 .divider {
   height: 15px;
-  background-color: #fadb4154;
+  background-color: #53DD8454;
 }
 
 .nav-one {
@@ -515,7 +515,7 @@ code {
 .profile h1 {
   margin: 5px 10px 0 10px;
   font-size: 1.3em;
-  color: #fadb41;
+  color: #53DD84;
 }
 
 
@@ -599,7 +599,7 @@ code {
 
 
 .main-two a {
-  border: solid .1px #fadb4154;
+  border: solid .1px #53DD8454;
   height: 55px;
   width: 55px;
   color: var(--color-text);
@@ -614,7 +614,7 @@ code {
   border-radius: 15% 15% 15% 15%;
 }
 .main-two a:hover {
-  background-color: #fadb4110;
+  background-color: #53DD8410;
   color: var(--color-text);
 }
 
@@ -695,7 +695,7 @@ i:nth-child(15) {
 }
 
 .main-four-card a {
-  border: solid .1px #fadb41;
+  border: solid .1px #53DD84;
   margin: 0px 5px 20px 10px;
   width: 500px;
   border-radius: 3% 3% 3% 3%;
@@ -742,7 +742,7 @@ i:nth-child(15) {
 }
 
 .main-five-card a {
-  border: solid .1px #fadb41;
+  border: solid .1px #53DD84;
   margin: 0px 5px 20px 10px;
   width: 500px;
   border-radius: 3% 3% 3% 3%;
@@ -797,7 +797,7 @@ i:nth-child(15) {
 }
 
 .main-six-card a {
-  border: solid .1px #fadb41;
+  border: solid .1px #53DD84;
   margin: 0px 5px 20px 10px;
   width: 500px;
   border-radius: 3% 3% 3% 3%;
@@ -881,7 +881,7 @@ i:nth-child(15) {
 }
 
 .dateYearHover {
-  color: #fadb41;
+  color: #53DD84;
 }
 
 @media only screen and (max-width: 369px) {}

@@ -145,7 +145,7 @@ color: var(--color-text);
 code {
   font-size: 0.8em;
   padding-left: 10px;
-  border-left: solid 5px #fadb41;
+  border-left: solid 5px #53DD84;
 color: var(--color-text);
   margin-left: 10px;
 }
@@ -247,7 +247,7 @@ color: var(--color-text);
 }
 
 .main-two a:hover {
-color: #fadb41;
+color: #53DD84;
 }
 
 .main-two .svg-inline--fa {
@@ -369,7 +369,7 @@ color: var(--color-text);
 
 .main-five h4 {
   margin: 10px 0 0 10px;
-color: #fadb41;
+color: #53DD84;
 }
 
 .main-five h5:nth-child(1) {
@@ -392,8 +392,8 @@ color: rgb(0, 255, 0);
   justify-content: flex-start;
   flex-direction: row;
   
-  border: solid 1px #fadb4170;
-  box-shadow: 0 0px 5px #fadb4170;
+  border: solid 1px #53DD8470;
+  box-shadow: 0 0px 5px #53DD8470;
 }
 .main-five p {
   padding: 0px;
@@ -438,7 +438,7 @@ color: var(--color-text);
 color: var(--color-text);
 }
 b {
-  color: #fadb41;
+  color: #53DD84;
 }
 
 .main-six div {
@@ -457,14 +457,14 @@ b {
   margin: auto;
   transition: all .4s linear;
  background-color: var(--color-background);
-  border: solid 1px #fadb4170;
-  box-shadow: 0 0px 5px #fadb4170;
+  border: solid 1px #53DD8470;
+  box-shadow: 0 0px 5px #53DD8470;
   border-radius: 8px;
   cursor:pointer;
 }
 
 .button-call:hover {
- background-color: #fadb4120;
+ background-color: #53DD8420;
 }
 
 .main-five .mini-profile {

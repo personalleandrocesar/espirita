@@ -194,7 +194,7 @@ code {
 .profile h1 {
   margin: 5px 0 0 10px;
   font-size: 1.5em;
-  color: #fadb41;
+  color: #53DD84;
 }
 
 .profile h4:nth-child(2) {
@@ -256,7 +256,7 @@ code {
 }
 
 .main-two a:hover {
-  color: #fadb41;
+  color: #53DD84;
 }
 
 .main-two i {
@@ -292,7 +292,7 @@ code {
   padding: 0 0 15px 0;
   color: var(--color-text);
   background-color: var(--color-background);
-  box-shadow: 0px 10px 5px #fadb41;
+  box-shadow: 0px 10px 5px #53DD84;
   overflow-x: auto;
   display: flex;
   justify-content: flex-start;
@@ -332,8 +332,8 @@ code {
 
 .main-four-card {
   margin: 0px 10px 20px 10px;
-border: solid 1px #fadb4170;
-  box-shadow: 0 0px 5px #fadb4170;  display: flex;
+border: solid 1px #53DD8470;
+  box-shadow: 0 0px 5px #53DD8470;  display: flex;
   justify-content: flex-start;
   flex-direction: row;
 }
@@ -358,7 +358,7 @@ border: solid 1px #fadb4170;
   margin: -10px 0 0 0;
   color: var(--color-text);
   background-color: var(--color-background);
-  box-shadow: 0px 10px 5px #fadb41;
+  box-shadow: 0px 10px 5px #53DD84;
   overflow-x: auto;
   height: 500px;
   display: flex;
@@ -380,7 +380,7 @@ border: solid 1px #fadb4170;
 
 .main-five h4 {
   margin: 10px 0 0 10px;
-  color: #fadb41;
+  color: #53DD84;
 }
 
 .main-five h5:nth-child(1) {
@@ -399,8 +399,8 @@ border: solid 1px #fadb4170;
 
 .main-five-card {
   margin: 0px 10px 20px 10px;
-border: solid 1px #fadb4170;
-  box-shadow: 0 0px 5px #fadb4170;  display: flex;
+border: solid 1px #53DD8470;
+  box-shadow: 0 0px 5px #53DD8470;  display: flex;
   justify-content: flex-start;
   flex-direction: row;
   transform: translateY(1em);
@@ -409,8 +409,8 @@ border: solid 1px #fadb4170;
 
 .main-five-card:hover {
   transform: translateY(0.8em) ;
-  box-shadow: 0 5px 5px #fadb4180;
-  background-color: #fadb4120;
+  box-shadow: 0 5px 5px #53DD8480;
+  background-color: #53DD8420;
 }
 
 .main-five p {

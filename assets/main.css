@@ -49,7 +49,7 @@ th {
 }
 
 th {
-  background-color: #fadb4120;
+  background-color: #53DD8420;
 }
 
 td {
@@ -64,7 +64,7 @@ caption {
 a,
 .green {
   text-decoration: none;
-  color: #fadb41;
+  color: #53DD84;
   transition: 0.4s;
 }
 
@@ -85,7 +85,7 @@ a,
 
 @keyframes lightOnAnimation {
   0% {
-    color: #fadb41;
+    color: #53DD84;
   }
 
   50% {
@@ -93,7 +93,7 @@ a,
   }
 
   100% {
-    color: #fadb41;
+    color: #53DD84;
   }
 }
 

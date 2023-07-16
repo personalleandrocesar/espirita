@@ -21,7 +21,7 @@
   background-color: var(--color-background);    
   border-radius: 0% 0% 10% 10%;
   z-index: 10;
-  box-shadow: 0px .5px 5px #fadb4140;
+  box-shadow: 0px .5px 5px #53DD8440;
 }
 
 .nav
@@ -42,7 +42,7 @@
 
 .nav a:hover {
   background-color: transparent;
-  color: #fadb41;
+  color: #53DD84;
 }
 .nav
  .svg-inline--fa {
@@ -54,7 +54,7 @@
 
 .nav
  .svg-inline--fa:hover {
-  color: #fadb41;
+  color: #53DD84;
   margin-top: 8px;
   display: flex;
   justify-content: flex-end;

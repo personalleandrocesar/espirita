@@ -245,7 +245,7 @@ code {
 }
 
 .main-five-card a:hover {
-  color: #fadb41;
+  color: #53DD84;
 }
 .main-five-card span {
   position: relative;
@@ -303,8 +303,8 @@ code {
 }
 
 .main-six-card a {
-  border: solid 1px #fadb4170;
-  box-shadow: 0 0px 5px #fadb4170;
+  border: solid 1px #53DD8470;
+  box-shadow: 0 0px 5px #53DD8470;
   margin: 0px 5px 20px 10px;
   border-radius: 3% 3% 3% 3%;
   transform: translateY(1em);
@@ -313,8 +313,8 @@ code {
 
 .main-six-card a:hover {
   transform: translateY(0.8em) ;
-  box-shadow: 0 5px 5px #fadb4180;
-  background-color: #fadb4120;
+  box-shadow: 0 5px 5px #53DD8480;
+  background-color: #53DD8420;
 }
 .main-six-card a:hover img{
   opacity: 1;
@@ -402,7 +402,7 @@ padding: 0 15px 0 0;
 }
 
 a.NuxtLink-exact-active {
-  color:#fadb41;
+  color:#53DD84;
   font-weight: bold;
 }
 

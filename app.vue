@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  titleTemplate: '%s | Personal Leandro Cesar',  
+  titleTemplate: '%s | Espírita Top',  
 })
 </script>
 
@@ -43,11 +43,11 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #fadb41;
+  color: #53DD84;
 }
 
 nav a.router-link-exact-active:hover {
-  background-color: #fadb4180;
+  background-color: #53DD8480;
   color: var(--color-text);
 }
 

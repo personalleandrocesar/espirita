@@ -68,7 +68,7 @@ export default {
 
 .logo h1 {
     margin: 80px 0 0px 0;
-    color: #fadb41;
+    color: #53DD84;
 }
 
 input {
@@ -89,7 +89,7 @@ input {
 
 input:focus {
     background-color: #fffde1;
-    border-color: #fadb41;
+    border-color: #53DD84;
 }
 
 input:hover {
@@ -133,7 +133,7 @@ h4:nth-child(1) {
 }
 
 h1:hover {
-    color: #fadb41;
+    color: #53DD84;
 
 }
 
@@ -144,7 +144,7 @@ a {
 }
 
 a:hover {
-    color: #fadb41;
+    color: #53DD84;
 }
 
 svg a {
@@ -154,7 +154,7 @@ svg a {
 }
 
 svg a:hover {
-    color: #fadb41;
+    color: #53DD84;
 }
 
 i {
@@ -181,8 +181,8 @@ code {
   margin: auto;
   transition: all .4s linear;
  background-color: var(--color-background);
-  border: solid 1px #fadb4170;
-  box-shadow: 0 0px 5px #fadb4170;
+  border: solid 1px #53DD8470;
+  box-shadow: 0 0px 5px #53DD8470;
   border-radius: 8px;
   cursor:pointer;
   width: 50%;
@@ -192,7 +192,7 @@ code {
 }
 
 .button-call:hover {
- background-color: #fadb4120;
+ background-color: #53DD8420;
 }
 
 style {

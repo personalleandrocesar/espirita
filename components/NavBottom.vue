@@ -42,7 +42,7 @@ h5 {
   background-color: var(--color-background);    
   border-radius: 0% 0% 10% 10%;
   z-index: 10;
-  box-shadow: 0px .5px 5px #fadb4140;
+  box-shadow: 0px .5px 5px #53DD8440;
   z-index: 20;
 }
 
@@ -74,6 +74,6 @@ h5 {
 }
 
 .nav-bottom a.router-link-exact-active {
-  color: #fadb41;
+  color: #53DD84;
 }
 </style>

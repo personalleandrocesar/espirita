@@ -137,8 +137,8 @@ code {
 }
 
 .main-four-card a {
-  border: solid 1px #fadb4170;
-  box-shadow: 0 0px 5px #fadb4170;
+  border: solid 1px #53DD8470;
+  box-shadow: 0 0px 5px #53DD8470;
   border-radius: 3% 3% 3% 3%;
   margin: 0px 5px 20px 0px;
   width: 500px;
@@ -148,8 +148,8 @@ code {
 
 .main-four-card a:hover {
   transform: translateY(0.8em) ;
-  box-shadow: 0 5px 5px #fadb4180;
-  background-color: #fadb4120;
+  box-shadow: 0 5px 5px #53DD8480;
+  background-color: #53DD8420;
 }
 
 .main-four-card span {

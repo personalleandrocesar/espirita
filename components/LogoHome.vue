@@ -7,10 +7,10 @@ import LCLogo from '@/components/LCLogo.vue'
             <LCLogo/>
             <!-- <img alt="leandrocesar.com logo" class="logo" src="@/assets/logo.svg" width="300" height="300" /> -->
             <span class='logoAnimationSeven'>
-                <h1>personal.leandrocesar.com</h1>
+                <h1>Espírita Top</h1>
             </span>
             <span class='logoAnimationSevenTwo'>
-                <h3>Personal - Consultoria</h3><h3>Avaliação Física - Krav-maga</h3>
+                <h3></h3>
             </span>
         </div>
     </header>
@@ -41,8 +41,8 @@ export default {
 h1 {
     margin-top: 2.5rem;
     font-size: 1.6rem;
-    color: #fadb41;
-    text-shadow: 4px 4px 10px #095D62, -4px 4px 10px #095D62, 4px -4px 10px #095D62, -4px -4px 10px #095D62, 5px 5px 10px #095D62, -5px 5px 10px #095D62, 5px -5px 10px #095D62, -5px -5px 10px #095D62 ;
+    color: #53DD84;
+    text-shadow: 4px 4px 10px #205461, -4px 4px 10px #205461, 4px -4px 10px #205461, -4px -4px 10px #205461, 5px 5px 10px #205461, -5px 5px 10px #205461, 5px -5px 10px #205461, -5px -5px 10px #205461 ;
 }
 
 h3 {
