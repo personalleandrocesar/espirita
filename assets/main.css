@@ -1,8 +1,9 @@
 @import './base.css';
 
+*{ font-family: "Open Sans";}
 
 #app {
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
 }
 
