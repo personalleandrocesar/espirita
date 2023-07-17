@@ -6,7 +6,7 @@ description: É uma medida internacional usada para calcular se uma pessoa está
 <div class="content-title-img">
 
 # {{ $doc.title}}
-<img src="/img/interpretacao.jpg" style='text-align:center;' alt="A importânica do IMC" height='150' width='250'>
+<img src="/img/interpretacao.jpg" style='text-align:center;' alt="A importânica do IMC" height='150' width='350'>
 
 </div>
 
