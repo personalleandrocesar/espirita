@@ -23,7 +23,7 @@ Jesus é o Caminho, a Verdade e a Vida. Sua luz imperecível brilha sobre osmil�
 <br>
 <br>
 
-> | Interpretações dos leitores |
+> ### | Interpretações dos leitores |
 
 ::a 
 "Jesus sempre será tolerante e paciente com nossa demora em nossa ascensão  espiritual. Nos oferta com suas palavras eternas de luz e sabedoria para que possamos em nossa caminhada no fortalecer."
