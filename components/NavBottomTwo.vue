@@ -5,16 +5,16 @@
         <Icon name="material-symbols:home" />
         <h5>INÍCIO</h5>
       </NuxtLink>
-      <NuxtLink to="/servicos">
-        <Icon name="material-symbols:person-play" />
-          <h5>SERVIÇOS</h5> 
+      <NuxtLink to="/biblioteca">
+          <Icon name="ion:library" />
+          <h5>BIBLIOTECA</h5>
+        </NuxtLink>
+       <NuxtLink to="/servicos">
+        <Icon name="tabler:arrows-random" />
+          <h5>ALEATÓRIO</h5> 
        </NuxtLink>
-          <NuxtLink to="/blog">
-            <Icon name="material-symbols:article" />
-            <h5>BLOG</h5>
-          </NuxtLink>
           <NuxtLink to="/sobre">
-             <Icon name="material-symbols:person" />
+             <Icon name="jam:sitemap-f" />
             <h5>SOBRE</h5>
            </NuxtLink>
     </div>

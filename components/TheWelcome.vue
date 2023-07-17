@@ -26,8 +26,8 @@ export default {
             <h4>
               <Icon name="material-symbols:keyboard-double-arrow-right" />
               
-              Personal </h4>
-            <p>Serviço de Personal trainer, para treinamento personalizados em academias;</p>
+              Caminho, verdade e vida </h4>
+            <p>Fonte auxiliar de esclarecimento nos estudos dos textos evangélicos.</p>
           </NuxtLink>
         
         </div>
@@ -37,9 +37,8 @@ export default {
             <h4>
                             <Icon name="material-symbols:keyboard-double-arrow-right" />
  
-               Consultoria</h4>
-            <p>Séries individuais em aplicativo para treinamento em academias +
-            avaliação física presencial gratuita;</p>
+               O Livro dos Espíritos</h4>
+            <p>Livro que marca o nascimento da Doutrina Espírita e inicia a Codificação organizada por Allan Kardec.</p>
           </NuxtLink>
         
         </div>
@@ -49,22 +48,12 @@ export default {
             <h4>
                             <Icon name="material-symbols:keyboard-double-arrow-right" />
 
-               Avaliação Física</h4>
-            <p>Avaliação Antropométrica, com percentual de gordura feita com dobras cutâneas ou com balança de bioimpedância;</p>
+               Aleatório</h4>
+            <p>Mensagens espíritas aleatórias para se inspirar no seu dia-a-dia!</p>
           </NuxtLink>
         
         </div>
-        <div class='main-four-card'>
-          <NuxtLink to="/kravmaga" @click.native="scrollToTop()">
-            <br>
-            <h4>
-                            <Icon name="material-symbols:keyboard-double-arrow-right" />
-
-               Krav-maga</h4>
-            <p>Treinamento individual ou em grupo de defesa pessoal, criado por Imi Lichtenfeld; Escola Bukan de Krav-maga;</p>
-          </NuxtLink>
         
-        </div>
       </div>
       <br>
       <br>
@@ -159,7 +148,7 @@ code {
 }
 
 .main-four-card h4 {
-  margin: 0 0 0 10px;
+  margin: 0 5px 0 10px;
   color:var(--color-text);
 }
 

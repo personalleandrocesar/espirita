@@ -5,30 +5,16 @@
         <div class='anima'>
             <div class='main-tree'>
                 <div>
-                    <h5><Icon name="fa6-solid:blog" /> Blog</h5>
-                </div>
-            </div>
-            <div class='main-five'>
-                <div class='main-five-card'>
-                    <RouterLink to='/blog' class='dateYear'>Início</RouterLink>
-                    <h4 class='dateYear'>|</h4>
-                    <RouterLink to='/blog/saude' class='dateYear'> Saúde</RouterLink>
-                    <!--
-          <h4 class='dateYear' >|</h4>
-          <RouterLink to='/blog/lesoes' class='dateYear'> Lesões</RouterLink>        
-        -->
+                    <h5><Icon name="ion:library" /> Biblioteca</h5>
                 </div>
             </div>
         </div>
 
-        <div>
-
-        </div>
         <div class='main-six'>
 
 
             <div class='main-six-card'>
-                <a href='/blog/saude/a-importancia-do-imc'>
+                <a href='/biblioteca/caminho/interpretacao'>
                     <img src="/img/importancia-imc.jpg" alt="A importânica do IMC">
                     <h3>
                         A importância do IMC
@@ -47,8 +33,6 @@
                     </p>
                 </a>
             </div>
-
-
 
 
 
@@ -358,7 +342,7 @@ i:nth-child(15) {
 .main-six-card a {
     border: solid 1px #53DD8470;
     box-shadow: 0 0px 5px #53DD8470;
-    margin: 0px 5px 20px 10px;
+    margin: 10px 5px 20px 10px;
     border-radius: 3% 3% 3% 3%;
     transform: translateY(1em);
     transition: all .4s linear;

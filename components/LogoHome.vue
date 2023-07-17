@@ -10,7 +10,7 @@ import LCLogo from '@/components/LCLogo.vue'
                 <h1>Espírita Top</h1>
             </span>
             <span class='logoAnimationSevenTwo'>
-                <h3>Você sendo um espírita Top</h3>
+                <h3>Te ajudando a ser um espírita Top!</h3>
             </span>
         </div>
     </header>

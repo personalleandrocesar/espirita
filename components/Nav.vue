@@ -1,38 +1,33 @@
 <template>
-    <div class='nav logoAnimationNav'>
-        <div>
-          
-            <div>
-            <a href="https://webapp.leandrocesar.com" target="_blank"><Icon name="solar:login-3-bold" />
-            </a>
-          </div>
-
-        </div>
+  <div class='nav logoAnimationNav'>
+    <div>
+      <div>
+        <a @click="$router.go(-1)">
+          <Icon name="tabler:arrow-big-left-line-filled" />
+        </a>
+      </div>
     </div>
-
+  </div>
 </template>
 <style scoped>
-.nav
-{
+.nav {
   height: 35px;
   position: sticky;
   top: -1px;
-  background-color: var(--color-background);    
+  background-color: var(--color-background);
   border-radius: 0% 0% 10% 10%;
   z-index: 10;
   box-shadow: 0px .5px 5px #53DD8440;
 }
 
-.nav
- div{
+.nav div {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   flex-direction: row;
 
 }
 
-.nav
- a{
+.nav a {
   cursor: pointer;
   text-decoration: none;
   margin: 0 14px 0 6px;
@@ -43,16 +38,15 @@
   background-color: transparent;
   color: #53DD84;
 }
-.nav
- .svg-inline--fa {
+
+.nav .svg-inline--fa {
   color: #aaa;
   margin-top: 8px;
   display: flex;
   justify-content: flex-end;
 }
 
-.nav
- .svg-inline--fa:hover {
+.nav .svg-inline--fa:hover {
   color: #53DD84;
   margin-top: 8px;
   display: flex;
