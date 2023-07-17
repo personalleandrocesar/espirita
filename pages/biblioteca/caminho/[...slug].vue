@@ -1,6 +1,6 @@
 <template>
     <main>
-      <NavTree/>
+      <Nav/>
       <ContentDoc/>
     </main>
     

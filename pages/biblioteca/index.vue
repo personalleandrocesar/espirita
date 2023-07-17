@@ -1,6 +1,5 @@
 <template>
     <main>
-        <Nav />
         <NavBottomTwo />
         <div class='anima'>
             <div class='main-tree'>
@@ -17,25 +16,33 @@
                 <a href='/biblioteca/caminho/interpretacao'>
                     <img src="/img/importancia-imc.jpg" alt="A importânica do IMC">
                     <h3>
-                        A importância do IMC
+                        Caminho, Verdade e Vida
                     </h3>
-                    <p class="article-date">
-                        <Icon name='mdi:account-edit-outline' size="17" /> Personal Leandro Cesar
-                        <br>
-                        <Icon name='mdi:calendar-clock' size="17" /> 15/07/2023 - 15:00
-                    </p>
                     <p>
                         <b>Resumo:</b>
                         <br>
-                        O índice de massa corporal (IMC) é uma medida internacional usada para calcular se uma pessoa está
-                        no peso ideal.
-                        Desenvolvido pelo polímata Lambert Quételet no fim ...
+                        Fonte auxiliar de esclarecimento nos estudos dos textos evangélicos
+                    </p>
+                </a>
+            </div>
+            <div class='main-six-card'>
+                <a href='/biblioteca/caminho/interpretacao'>
+                    <img src="/img/importancia-imc.jpg" alt="A importânica do IMC">
+                    <h3>
+                        O Livro dos Espíritos
+                    </h3>
+                    <p>
+                        <b>Resumo:</b>
+                        <br>
+                        Livro que marca o nascimento da Doutrina Espírita e inicia a Codificação organizada por Allan Kardec.
                     </p>
                 </a>
             </div>
 
 
-
+<br>
+<br>
+<br>
 
 
         </div>
@@ -363,6 +370,7 @@ img {
     opacity: .6;
     width: 100%;
     transition: all .4s linear;
+    border-radius: 3% 3% 0% 0%;
 }
 
 .main-six-card span {
