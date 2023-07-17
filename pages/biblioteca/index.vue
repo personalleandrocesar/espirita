@@ -49,9 +49,7 @@
             </div>
         
           </div>
-          <br>
-          <br>
-          <br>    </main>
+          </main>
 </template>
 
 <style scoped>
@@ -183,7 +181,7 @@ code {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    margin: 20px 0 0 0;
+    margin: 0px 0 0 0;
     color: var(--color-text);
     overflow-x: auto;
 }
@@ -194,6 +192,7 @@ code {
 }
 
 .main-tree h5 {
+    margin-top: 20px;
     margin-left: 10px;
     font-size: 1.2rem;
 }

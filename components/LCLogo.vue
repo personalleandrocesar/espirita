@@ -4,7 +4,7 @@
 
 <style scoped>
 svg {
-  margin: 30px auto -50px auto;
+  margin: 20px auto -50px auto;
   display: flex;
     justify-content: center;
     flex-direction: column;

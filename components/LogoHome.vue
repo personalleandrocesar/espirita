@@ -34,7 +34,6 @@ export default {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 1rem;
 }
 
 
