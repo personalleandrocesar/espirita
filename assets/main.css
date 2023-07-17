@@ -17,11 +17,26 @@
 }
 
 .content-main {
-  margin: 10px 0 50px 10px;
+  margin: 10px 5px 50px 10px;
   display: flex;
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: nowrap;
+    font-size: 1.1rem;
+  }
+
+  .content-main p {
+    margin-bottom: 15px;
+    text-indent: 20px;
+  }
+
+  .content-detail {
+    margin: 10px 10px 50px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      flex-wrap: nowrap;
+      font-size: 1.1rem;
     
   }
 

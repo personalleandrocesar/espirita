@@ -10,12 +10,14 @@ description: É uma medida internacional usada para calcular se uma pessoa está
 
 </div>
 
-<div class="content-main">
+
+ <div class="content-detail">
 
 > #### “Sabendo primeiramente isto: que nenhuma profecia da Escritura é de particular interpretação.” 
  (I PEDRO, 1: 20)
+</div>
 
-<br>
+<div class="content-main">
 
 Jesus é o Caminho, a Verdade e a Vida. Sua luz imperecível brilha sobre osmilênios terrestres, como o Verbo do princípio, penetrando o mundo, há quase vinte séculos.
 
@@ -44,13 +46,12 @@ Quanto ao mais, consola­nos reconhecer que os Textos Sagrados sãodádivas do P
 
 <br>
 
+
 >  #### Emmanuel
 Pedro Leopoldo, 2 de setembro de 1948.
-<br>
-<br>
+
 
 ###### ¹ Algumas destas páginas, já publicadas na imprensa espiritista cristã, foram por nós revistas e simplificadas para maior clareza de interpretação —Nota deEmmanuel.
-<br>
 <br>
 
 * *
@@ -63,9 +64,6 @@ Pedro Leopoldo, 2 de setembro de 1948.
 
 ::
 "Jesus sempre será tolerante e paciente com nossa demora em nossa ascensão  espiritual. Nos oferta com suas palavras eternas de luz e sabedoria para que possamos em nossa caminhada no fortalecer."
-
-
-<br>
 
 ::a
 "Jesus sempre será tolerante e paciente com nossa demora em nossa ascensão  espiritual. Nos oferta com suas palavras eternas de luz e sabedoria para que possamos em nossa caminhada no fortalecer."
