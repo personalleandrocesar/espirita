@@ -21,7 +21,7 @@ export default {
 
       <div class='main-four'>
         <div class='main-four-card'>
-          <NuxtLink to="/personal" @click.native="scrollToTop()">
+          <NuxtLink to="/biblioteca/caminho/interpretacao" @click.native="scrollToTop()">
             <br>
             <h4>
               <Icon name="material-symbols:keyboard-double-arrow-right" />
@@ -32,7 +32,7 @@ export default {
         
         </div>
         <div class='main-four-card'>
-          <NuxtLink to="/consultoria" @click.native="scrollToTop()">
+          <NuxtLink to="/biblioteca/caminho/interpretacao" @click.native="scrollToTop()">
             <br>
             <h4>
                             <Icon name="material-symbols:keyboard-double-arrow-right" />
@@ -43,7 +43,7 @@ export default {
         
         </div>
         <div class='main-four-card'>
-          <NuxtLink to="/avaliacao" @click.native="scrollToTop()">
+          <NuxtLink to="/biblioteca/caminho/interpretacao" @click.native="scrollToTop()">
             <br>
             <h4>
                             <Icon name="material-symbols:keyboard-double-arrow-right" />

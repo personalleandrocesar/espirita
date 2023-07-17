@@ -9,44 +9,49 @@
             </div>
         </div>
 
-        <div class='main-six'>
+          <div class='main-four'>
+            <div class='main-four-card'>
+                <NuxtLink to="/biblioteca/caminho/interpretacao" @click.native="scrollToTop()">
+<!-- 
+    <img src="/img/importancia-imc.jpg" alt="A importânica do IMC">
 
-
-            <div class='main-six-card'>
-                <a href='/biblioteca/caminho/interpretacao'>
-                    <img src="/img/importancia-imc.jpg" alt="A importânica do IMC">
-                    <h3>
-                        Caminho, Verdade e Vida
-                    </h3>
-                    <p>
-                        <b>Resumo:</b>
-                        <br>
-                        Fonte auxiliar de esclarecimento nos estudos dos textos evangélicos
-                    </p>
-                </a>
+-->
+                <br>
+                <h4>
+                  <Icon name="material-symbols:keyboard-double-arrow-right" />
+              
+                  Caminho, verdade e vida </h4>
+                <p>Fonte auxiliar de esclarecimento nos estudos dos textos evangélicos.</p>
+              </NuxtLink>
+        
             </div>
-            <div class='main-six-card'>
-                <a href='/biblioteca/caminho/interpretacao'>
-                    <img src="/img/importancia-imc.jpg" alt="A importânica do IMC">
-                    <h3>
-                        O Livro dos Espíritos
-                    </h3>
-                    <p>
-                        <b>Resumo:</b>
-                        <br>
-                        Livro que marca o nascimento da Doutrina Espírita e inicia a Codificação organizada por Allan Kardec.
-                    </p>
-                </a>
+            <div class='main-four-card'>
+              <NuxtLink to="/biblioteca/caminho/interpretacao" @click.native="scrollToTop()">
+                <br>
+                <h4>
+                                <Icon name="material-symbols:keyboard-double-arrow-right" />
+ 
+                   O Livro dos Espíritos</h4>
+                <p>Livro que marca o nascimento da Doutrina Espírita e inicia a Codificação organizada por Allan Kardec.</p>
+              </NuxtLink>
+        
             </div>
+            <div class='main-four-card'>
+              <NuxtLink to="/biblioteca/caminho/interpretacao" @click.native="scrollToTop()">
+                <br>
+                <h4>
+                                <Icon name="material-symbols:keyboard-double-arrow-right" />
 
-
-<br>
-<br>
-<br>
-
-
-        </div>
-    </main>
+                   Aleatório</h4>
+                <p>Mensagens espíritas aleatórias para se inspirar no seu dia-a-dia!</p>
+              </NuxtLink>
+        
+            </div>
+        
+          </div>
+          <br>
+          <br>
+          <br>    </main>
 </template>
 
 <style scoped>
@@ -194,276 +199,68 @@ code {
 }
 
 .main-four {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin: -10px 0 0 0;
-    color: #555;
-    overflow-x: auto;
+  display: flex;
+  justify-content:center;
+  flex-direction: row;
+  margin: 0px 0 0 0;
+  color: #aaa;
+  overflow-x:auto;
+  flex-wrap: wrap;
 }
 
 .main-four i {
-    font-size: 1.2em;
-    color: #555;
+  font-size: 1.2em;
+  color: var(--color-text);
 }
 
-.main-four h5 {
-    margin-left: 10px;
+.main-four h5{
+  margin-left: 10px;
 }
 
 .main-four-card {
-    height: 300px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-}
-
-.main-four-card i:nth-child(9),
-i:nth-child(11),
-i:nth-child(15) {
-    color: #aaa;
+  height: 180px;
+  width: 180px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 
 .main-four-card a {
-    border: solid .1px #dddddd;
-    margin: 0px 5px 20px 10px;
-    width: 500px;
-    border-radius: 3% 3% 3% 3%;
+  border: solid 1px #53DD8470;
+  box-shadow: 0 0px 5px #53DD8470;
+  border-radius: 3% 3% 3% 3%;
+  margin: 0px 5px 20px 0px;
+  width: 500px;
+  transform: translateY(1em);
+  transition: all .4s linear;
+}
+
+.main-four-card a:hover {
+  transform: translateY(0.8em) ;
+  box-shadow: 0 5px 5px #53DD8480;
+  background-color: #53DD8420;
 }
 
 .main-four-card span {
-    position: relative;
-    top: -6px;
-    left: -14px;
+  position: relative;
+  top: -6px;
+  left: -14px;
 }
 
 .main-four-card h4 {
-    margin: 0 0 0 10px;
+  margin: 0 5px 0 10px;
+  color:var(--color-text);
 }
 
 .main-four-card p {
-    margin: 0 0 0 10px;
-    font-size: .8em;
+  margin: 0 10px;
+  font-size: .8em;
 }
 
-.main-five {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin: 10px 0 0 0;
-    color: #555;
-    overflow-x: auto;
-}
 
-.main-five i {
-    font-size: 1.2em;
-    color: #555;
-}
-
-.main-five h5 {
-    margin-left: 10px;
-}
-
-.main-five h4 {
-    margin-left: 10px;
-}
-
-.main-five-card {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    margin-bottom: 7px;
-}
-
-.main-five-card a {
-    margin: 0px 5px 20px 10px;
-    border-radius: 3% 3% 3% 3%;
-    color: #aaa;
-}
-
-.main-five-card a:hover {
-    color: #53DD84;
-}
-
-.main-five-card span {
-    position: relative;
-    top: -6px;
-    left: -14px;
-}
-
-.main-five-card h4 {
-    margin: 0 5px 0 10px;
-}
-
-.main-five-card p {
-    margin: 0 0 0 10px;
-    font-size: .8em;
-}
-
-.main-six {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin: -10px 0 0 0;
-    color: #555;
-    overflow-x: auto;
-}
-
-@media only screen and (min-width: 610px) {
-    .main-six {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        margin: -10px 0 0 0;
-        color: #555;
-        overflow-x: auto;
-    }
-
-}
-
-.main-six i {
-    font-size: 1.2em;
-    color: var(--color-text);
-}
-
-.main-six h5 {
-    margin-left: 10px;
-}
-
-.main-six h5 {
-    margin: 10px;
-}
-
-.main-six-card {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.main-six-card .article-date {
-    font-size: 13px;
-    color: #fff;
-    margin-top: -12px;
-}
-
-.main-six-card a {
-    border: solid 1px #53DD8470;
-    box-shadow: 0 0px 5px #53DD8470;
-    margin: 10px 5px 20px 10px;
-    border-radius: 3% 3% 3% 3%;
-    transform: translateY(1em);
-    transition: all .4s linear;
-}
-
-.main-six-card a:hover {
-    transform: translateY(0.8em);
-    box-shadow: 0 5px 5px #53DD8480;
-    background-color: #53DD8420;
-}
-
-.main-six-card a:hover img {
-    opacity: 1;
-}
-
-img {
-    height: 150px;
-    opacity: .6;
-    width: 100%;
-    transition: all .4s linear;
-    border-radius: 3% 3% 0% 0%;
-}
-
-.main-six-card span {
-    position: relative;
-    top: -6px;
-    left: -14px;
-}
-
-.main-six-card h3 {
-    margin: 15px 7px;
-    color: var(--color-text);
-}
-
-.main-six-card h4 {
-    margin: 15px 7px;
-    color: var(--color-text);
-}
-
-.main-six-card p {
-    margin: 0 0 10px 10px;
-    font-size: .8em;
-}
-
-.main-seven {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: -10px 0 0 0;
-    color: #555;
-    overflow-x: auto;
-}
-
-.main-seven i {
-    font-size: 1.2em;
-    color: var(--color-text);
-}
-
-.main-seven h5 {
-    margin-left: 10px;
-}
-
-.main-seven-card {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
-
-}
-
-.main-seven-card a {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 10px auto 20px auto;
-    width: 60%;
-}
-
-.main-seven-card span {
-    position: relative;
-    top: -6px;
-    left: -14px;
-}
-
-.main-seven-card h4 {
-    margin: 0 5px 0 10px;
-}
-
-.main-seven-card p {
-    margin: 0 0 0 10px;
-    font-size: .8em;
-}
-
-.mini-profile {
-    height: 25px;
-    border-radius: 50%;
-    margin: 10px 0 0 10px;
-    padding: 0 15px 0 0;
-}
-
-a.NuxtLink-exact-active {
-    color: #53DD84;
-    font-weight: bold;
-}
-
-.dateYear {
-    color: #ccc;
-}
-
-.dateYearHover {
-    color: #000;
-}
-
-.main-five a.router-link-exact-active {
-    color: #53DD84;
+@media only screen and (max-width: 382px) {
+  .main-tree-card {
+    width: 90%;
+  }
 }
 </style>
